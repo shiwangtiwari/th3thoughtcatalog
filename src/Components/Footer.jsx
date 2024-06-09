@@ -20,13 +20,13 @@ function Footer() {
           Projects
         </h1>
         <div className="dets font-['Neue Montreal'] mt-5 md:mt-10">
-          <a className="block text-xl md:text-lg font-light mb-2" href="https://github.com/shiwangtiwari/">
+          <a className="block text-xl md:text-lg font-light mb-2" href="https://github.com/shiwangtiwari/" target="_blank">
             Github
           </a>
-          <a className="block text-xl md:text-lg font-light mb-2" href="https://www.instagram.com/th3thoughtcatalog/">
+          <a className="block text-xl md:text-lg font-light mb-2" href="https://www.instagram.com/th3thoughtcatalog/" target="_blank">
             Instagram
           </a>
-          <a className="block text-xl md:text-lg font-light mb-2" href="https://www.linkedin.com/in/shiwangtiwari/">
+          <a className="block text-xl md:text-lg font-light mb-2" href="https://www.linkedin.com/in/shiwangtiwari/" target="_blank">
             LinkedIn
           </a>
         </div>
