@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import socioImage from "../assets/socio.jpg";
+import nuoxImage from "../assets/nuox.jpg";
+import portfolioImage from "../assets/portfolio.jpg";
+import fitnessImage from "../assets/the-fitness-club.jpg";
 
 const Projects = () => {
   const [hovered, setHovered] = useState(null);
@@ -13,10 +17,10 @@ const Projects = () => {
   };
 
   const cards = [
-    { title: "SOCIO", link: "https://socio-st.netlify.app/", bgImage: "/src/assets/socio.jpg" },
-    { title: "NUOX", link: "https://nuox-olive.vercel.app/", bgImage: "/src/assets/nuox.jpg" },
-    { title: "PORTFOLIO", link: "https://www.shiwangtiwari.com", bgImage: "/src/assets/portfolio.jpg" },
-    { title: "FITNESS", link: "https://th3fitnessclub.netlify.app/", bgImage: "/src/assets/the-fitness-club.jpg" },
+    { title: "SOCIO", link: "https://socio-st.netlify.app/", bgImage: socioImage },
+    { title: "NUOX", link: "https://nuox-olive.vercel.app/", bgImage: nuoxImage },
+    { title: "PORTFOLIO", link: "https://www.shiwangtiwari.com", bgImage: portfolioImage },
+    { title: "FITNESS", link: "https://th3fitnessclub.netlify.app/", bgImage: fitnessImage },
   ];
 
   return (
