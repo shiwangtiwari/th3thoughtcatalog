@@ -7,8 +7,11 @@ import Eyes from "./Components/Eyes";
 import Projects from "./Components/Projects";
 import Cards from "./Components/Cards";
 import Footer from "./Components/Footer";
+import LocomotiveScroll from "locomotive-scroll";
 
 function App() {
+  const locomotiveScroll = new LocomotiveScroll();
+
   return (
     <div className="w-full min-h-screen bg-zinc-900 text-white">
       <Navbar />
