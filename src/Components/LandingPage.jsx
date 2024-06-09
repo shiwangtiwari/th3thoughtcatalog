@@ -1,6 +1,7 @@
 import React from "react";
 import { FaArrowUpLong } from "react-icons/fa6";
 import { motion } from "framer-motion";
+import backgroundVideo from "../assets/loop.mp4"; // Import your video file
 
 function LandingPage() {
   return (
@@ -8,14 +9,22 @@ function LandingPage() {
       <div className="textstructure mt-24 md:mt-52 px-5 md:px-20">
         {["WE CREATE", "EYE OPENING", "PROJECTS"].map((item, index) => (
           <div className="masker" key={index}>
-            <div className="w-fit flex items-end overflow-hidden">
+            <div className="w-fit flex items-end overflow-hidden relative">
               {index === 1 && (
                 <motion.div 
                   initial={{ width: 0 }}
                   animate={{ width: "9vw" }}
                   transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-                  className="w-[9vw] md:w-auto rounded-md h-[5.2vw] md:h-[5.2vw] relative bg-red-500"
-                ></motion.div>
+                  className="relative w-[9vw] md:w-auto h-[5.2vw] md:h-[5.2vw] rounded-md overflow-hidden"
+                >
+                  <video
+                    src={backgroundVideo}
+                    autoPlay
+                    loop
+                    muted
+                    className="w-full h-full object-cover"
+                  />
+                </motion.div>
               )}
               <h1 className="flex items-center uppercase text-[7.5vw] md:text-[7.5vw] h-full leading-[6.5vw] md:leading-[6.5vw] tracking-tightest font-['Founders Grotesk X-Cond'] font-bold">
                 {item}

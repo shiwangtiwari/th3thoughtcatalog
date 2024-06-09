@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/ttc-logo.png";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -20,14 +21,14 @@ function Footer() {
           Projects
         </h1>
         <div className="dets font-['Neue Montreal'] mt-5 md:mt-10">
-          <a className="block text-xl md:text-lg font-light mb-2" href="https://github.com/shiwangtiwari/" target="_blank">
-            Github
+          <a className="block text-xl md:text-lg font-light mb-2 flex items-center" href="https://github.com/shiwangtiwari/" target="_blank">
+            <FaGithub className="mr-2" /> Github
           </a>
-          <a className="block text-xl md:text-lg font-light mb-2" href="https://www.instagram.com/th3thoughtcatalog/" target="_blank">
-            Instagram
+          <a className="block text-xl md:text-lg font-light mb-2 flex items-center" href="https://www.instagram.com/th3thoughtcatalog/" target="_blank">
+            <FaInstagram className="mr-2" /> Instagram
           </a>
-          <a className="block text-xl md:text-lg font-light mb-2" href="https://www.linkedin.com/in/shiwangtiwari/" target="_blank">
-            LinkedIn
+          <a className="block text-xl md:text-lg font-light mb-2 flex items-center" href="https://www.linkedin.com/in/shiwangtiwari/" target="_blank">
+            <FaLinkedin className="mr-2" /> LinkedIn
           </a>
         </div>
       </div>
