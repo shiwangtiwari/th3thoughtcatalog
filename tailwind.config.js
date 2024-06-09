@@ -8,10 +8,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         'eyes': "url('/src/assets/Eyes.jpg')",
-        'socio': "url('/src/assets/socio.png')",
-        'nuox': "url('/src/assets/nuox.png')",
-        'portfolio': "url('/src/assets/portfolio.png')",
-        'fitness': "url('/src/assets/the fitness club.png')",
+        'socio': "url('/src/assets/socio.jpg')",
+        'nuox': "url('/src/assets/nuox.jpg')",
+        'portfolio': "url('/src/assets/portfolio.jpg')",
+        'fitness': "url('/src/assets/the fitness club.jpg')",
         'picture': "url('/src/assets/profilepicture.jpg')",
       },
     },
