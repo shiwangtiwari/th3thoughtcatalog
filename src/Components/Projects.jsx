@@ -13,10 +13,10 @@ const Projects = () => {
   };
 
   const cards = [
-    { title: "SOCIO", link: "https://socio-st.netlify.app/", bgImage: "src/assets/socio.png" },
-    { title: "NUOX", link: "https://nuox-olive.vercel.app/", bgImage: "src/assets/nuox.png" },
-    { title: "PORTFOLIO", link: "https://www.shiwangtiwari.com", bgImage: "src/assets/portfolio.png" },
-    { title: "FITNESS", link: "https://th3fitnessclub.netlify.app/", bgImage: "src/assets/the-fitness-club.png" },
+    { title: "SOCIO", link: "https://socio-st.netlify.app/", bgImage: "/src/assets/socio.png" },
+    { title: "NUOX", link: "https://nuox-olive.vercel.app/", bgImage: "/src/assets/nuox.png" },
+    { title: "PORTFOLIO", link: "https://www.shiwangtiwari.com", bgImage: "/src/assets/portfolio.png" },
+    { title: "FITNESS", link: "https://th3fitnessclub.netlify.app/", bgImage: "/src/assets/the-fitness-club.png" },
   ];
 
   return (
