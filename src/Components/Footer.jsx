@@ -4,7 +4,7 @@ import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className="flex flex-col md:flex-row gap-5 w-full h-auto md:h-screen bg-zinc-900 p-5 md:p-20 font-['Founders Grotesk X-Cond']" id="footer">
+    <div className="flex flex-col md:flex-row gap-5 w-full h-auto md:h-[30vh] bg-zinc-900 p-5 md:p-20 font-['Founders Grotesk X-Cond']" id="footer">
       <div className="w-full md:w-1/2 h-auto md:h-full flex flex-col justify-between">
         <div className="heading">
           <h1 className="text-[8vw] md:text-5xl uppercase font-semibold tracking-tighter leading-none -mb-15">
@@ -14,7 +14,6 @@ function Footer() {
             Opening
           </h1>
         </div>
-        <img src={Logo} alt="" className="w-[35vw] md:w-[14vw] mx-auto md:mx-0" />
       </div>
       <div className="w-full md:w-1/2">
         <h1 className="text-[5vw] md:text-3xl uppercase font-semibold tracking-tighter leading-none -mb-5">
@@ -31,6 +30,10 @@ function Footer() {
             <FaLinkedin className="mr-2" /> LinkedIn
           </a>
         </div>
+      </div>
+      {/* Logo container at the bottom */}
+      <div className="w-[50vw] md:w-[35vw] md:ml-auto flex justify-center items-end mt-auto">
+        <img src={Logo} alt="" className="w-full md:w-[14vw]" />
       </div>
     </div>
   );
