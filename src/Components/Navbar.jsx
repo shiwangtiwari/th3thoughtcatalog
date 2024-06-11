@@ -28,13 +28,15 @@ function Navbar() {
       <div className="logo">
         <img src={Logo} alt="Logo" className="h-[2vh] md:h-[2.5vh]" />
       </div>
-      {/* Conditionally render the bars icon based on the menuOpened state */}
-      {!menuOpened && (
-        <div className="menu-icon md:hidden" onClick={toggleMenu}>
-          <img src={Bars} alt="Bars" className="w-8 h-8" />
-        </div>
-      )}
-      <ul className={`menu md:flex ${menuOpened ? "flex flex-col md:flex-row open-menu-class" : "hidden"} md:items-center md:flex-row md:gap-8 absolute md:static top-full right-0 w-[50vw] md:w-auto bg-black md:bg-transparent`}>
+      {/* Bars icon always visible */}
+      <div className="menu-icon md:hidden" onClick={toggleMenu}>
+        <img src={Bars} alt="Bars" className="w-8 h-8" />
+      </div>
+      <ul
+        className={`menu md:flex ${
+          menuOpened ? "flex flex-col items-center md:flex-row open-menu-class" : "hidden"
+        } md:items-center md:flex-row md:gap-8 absolute md:static top-full right-0 w-[50vw] md:w-auto bg-black md:bg-transparent`}
+      >
         <li className="md:mr-8">
           <Link
             className="nav-link"
