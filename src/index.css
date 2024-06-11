@@ -32,3 +32,16 @@ body {
 .read-more-btn:hover .dot {
   transform: scale(6);
 }
+
+.nav-link {
+  /* Your existing styles */
+  color: white; /* Text color */
+  cursor: pointer;
+  /* transition: color 0.3s ease-in-out; Smooth color transition */
+}
+
+.nav-link:hover {
+  color: #CDEA68; /* Glow color on hover */
+}
+
+

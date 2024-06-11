@@ -46,12 +46,13 @@ function Navbar() {
             spy={true}
             smooth={true}
           >
-            Services
+            Home
           </Link>
         </li>
+        {/* Add hover effect class to each nav-link */}
         <li className="md:mr-8">
           <Link
-            className="nav-link"
+            className="nav-link hover-glow" // Add hover-glow class
             onClick={() => setMenuOpened(false)}
             to="about"
             spy={true}
@@ -60,9 +61,10 @@ function Navbar() {
             About Us
           </Link>
         </li>
+        {/* Add hover effect class to each nav-link */}
         <li className="md:mr-8">
           <Link
-            className="nav-link"
+            className="nav-link hover-glow" // Add hover-glow class
             onClick={() => setMenuOpened(false)}
             to="work"
             spy={true}
@@ -71,9 +73,10 @@ function Navbar() {
             Our Work
           </Link>
         </li>
+        {/* Add hover effect class to each nav-link */}
         <li className="md:mr-8">
           <Link
-            className="nav-link"
+            className="nav-link hover-glow" // Add hover-glow class
             onClick={() => setMenuOpened(false)}
             to="insights"
             spy={true}
@@ -82,9 +85,10 @@ function Navbar() {
             Insights
           </Link>
         </li>
+        {/* Add hover effect class to each nav-link */}
         <li>
           <Link
-            className="nav-link ml-0 md:ml-32"
+            className="nav-link ml-0 md:ml-32 hover-glow" // Add hover-glow class
             onClick={() => setMenuOpened(false)}
             to="footer"
             spy={true}

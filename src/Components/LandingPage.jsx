@@ -16,7 +16,7 @@ function LandingPage() {
                 <motion.div
                   initial={{ width: 0 }}
                   animate={{ width: "9vw" }}
-                  transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
+                  transition={{ ease: [0.76, 0, 0.24, 1], duration: 1.5 }}
                   className="relative w-[9vw] md:w-auto h-[5.2vw] md:h-[5.2vw] rounded-md overflow-hidden"
                 >
                   <video
