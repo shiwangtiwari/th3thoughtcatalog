@@ -19,7 +19,7 @@ function Footer() {
         <h1 className="text-[5vw] md:text-3xl uppercase font-semibold tracking-tighter leading-none -mb-5">
           Projects
         </h1>
-        <div className="dets font-['Neue Montreal'] mt-5 md:mt-10">
+        <div className="dets relative font-['Neue Montreal'] mt-5 md:mt-10">
           <a className="block text-xl md:text-lg font-light mb-2 flex items-center" href="https://github.com/shiwangtiwari/" target="_blank">
             <FaGithub className="mr-2" /> Github
           </a>

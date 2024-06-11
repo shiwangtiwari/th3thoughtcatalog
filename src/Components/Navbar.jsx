@@ -26,7 +26,10 @@ function Navbar() {
   return (
     <div className="fixed z-[999] w-full px-6 md:px-20 py-4 md:py-8 font-['Neue Montreal'] flex justify-between items-center bg-black">
       <div className="logo">
-        <img src={Logo} alt="Logo" className="h-[2vh] md:h-[2.5vh]" />
+        {/* Add Link or a tag here */}
+        <Link to="home" spy={true} smooth={true}>
+          <img src={Logo} alt="Logo" className="h-[2vh] md:h-[2.5vh]" />
+        </Link>
       </div>
       {/* Bars icon always visible */}
       <div className="menu-icon md:hidden" onClick={toggleMenu}>
