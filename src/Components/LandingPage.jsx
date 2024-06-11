@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import loop from "../assets/loop-med.mp4";
 import moon from "../assets/moon-large.mp4";
 
+
 function LandingPage() {
   return (
     <div data-scroll data-scroll-speed="-.3" className="w-full min-h-screen bg-zinc-900 pt-1" id="home">
