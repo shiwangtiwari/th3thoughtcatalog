@@ -28,7 +28,7 @@ function About() {
           </button>
           {showInfo && (
             <p className="font-['Neue_Montreal_Regular'] text-[3.25vw] md:text-[1.75vw] leading-[3.5vw] md:leading-[2.5vw] tracking-tight mt-3">
-              Additional information can go here. Additional information can go here. Additional information can go here. Additional information can go here. Additional information can go here. Additional information can go here. Additional information can go here.
+            I&apos;m a software developer with JavaScript experience and framework expertise. I&apos;m a quick learner, collaborating closely with clients to create efficient, scalable, user-friendly solutions solving real-world problems. Let&apos;s work together to bring your ideas to life!
             </p>
           )}
         </div>
