@@ -19,3 +19,12 @@ html::-webkit-scrollbar {
   *::-webkit-scrollbar {
     display: none; /* Chrome, Safari, and Opera */
   }
+
+  .read-more-btn .dot {
+    transition: width 0.3s ease, height 0.3s ease;
+  }
+  
+  .read-more-btn:hover .dot {
+    width: 1.25rem; /* Increase the size as needed */
+    height: 1.25rem; /* Increase the size as needed */
+  }
