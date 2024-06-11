@@ -39,7 +39,7 @@ function Navbar() {
       >
         <li className="md:mr-8">
           <Link
-            className="nav-link"
+            className="nav-link md:font-size-sm"
             onClick={() => setMenuOpened(false)}
             activeClass="active"
             to="home"

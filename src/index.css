@@ -30,13 +30,14 @@ body {
 }
 
 .read-more-btn:hover .dot {
-  transform: scale(5);
+  transform: scale(6);
 }
 
 .nav-link {
   /* Your existing styles */
   color: white; /* Text color */
   cursor: pointer;
+  font-size: larger;
   /* transition: color 0.3s ease-in-out; Smooth color transition */
 }
 

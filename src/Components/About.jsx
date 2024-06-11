@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "./About.css"
 
 function About() {
   const [showInfo, setShowInfo] = useState(false);
@@ -43,11 +42,11 @@ function About() {
         <div className="w-full md:w-1/2 md:pr-5">
           <h1 className="text-[4vw] md:text-[2.5vw]">Our Approach</h1>
           <button
-            className="read-more-btn flex uppercase z-10 gap-3 md:gap-10 items-center px-5 md:px-10 py-4 md:py-6 bg-zinc-900 rounded-full mt-5 md:mt-10 text-white"
+            className="read-more-btn relative flex uppercase z-10 gap-3 md:gap-10 items-center px-5 md:px-10 py-4 md:py-6 bg-zinc-900 rounded-full mt-5 md:mt-10 text-white"
             onClick={() => setShowInfo(!showInfo)}
           >
             Read More
-            <div className="dot w-1 h-1 z-10 md:w-3 md:h-3 z-10 bg-zinc-100 rounded-full" onClick={() => setShowInfo(!showInfo)}></div>
+            <div className="dot w-1 h-1 z-10 md:w-2 md:h-2 z-10 bg-zinc-100 rounded-full"></div>
           </button>
           {showInfo && (
             <p className="font-['Neue_Montreal_Regular'] z-10 text-[3.25vw] md:text-[1.75vw] leading-[3.5vw] md:leading-[2.5vw] tracking-tight mt-3">
