@@ -23,6 +23,7 @@ function LandingPage() {
                     src={loop}
                     autoPlay
                     loop
+                    playsInline
                     muted
                     className="w-full h-full object-cover"
                   />
@@ -56,6 +57,7 @@ function LandingPage() {
         <video
           src={moon}
           autoPlay
+          playsInline
           loop
           muted
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
