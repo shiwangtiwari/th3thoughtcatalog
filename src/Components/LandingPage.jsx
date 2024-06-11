@@ -1,7 +1,8 @@
 import React from "react";
 import { FaArrowUpLong } from "react-icons/fa6";
 import { motion } from "framer-motion";
-import backgroundVideo from "../assets/loop.mp4"; // Import your video file
+import loop from "../assets/loop-med.mp4";
+import moon from "../assets/moon-large.mp4";
 
 function LandingPage() {
   return (
@@ -11,14 +12,14 @@ function LandingPage() {
           <div className="masker" key={index}>
             <div className="w-fit flex items-end overflow-hidden relative">
               {index === 1 && (
-                <motion.div 
+                <motion.div
                   initial={{ width: 0 }}
                   animate={{ width: "9vw" }}
                   transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
                   className="relative w-[9vw] md:w-auto h-[5.2vw] md:h-[5.2vw] rounded-md overflow-hidden"
                 >
                   <video
-                    src={backgroundVideo}
+                    src={loop}
                     autoPlay
                     loop
                     muted
@@ -48,6 +49,17 @@ function LandingPage() {
               <FaArrowUpLong />
             </span>
           </div>
+        </div>
+      </div>
+      <div className="relative w-full h-[70vh]">
+        <video
+          src={moon}
+          autoPlay
+          loop
+          muted
+          className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        />
+        <div className="relative z-20 flex justify-center items-center h-full text-white">
         </div>
       </div>
     </div>
