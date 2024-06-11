@@ -30,7 +30,7 @@ body {
 }
 
 .read-more-btn:hover .dot {
-  transform: scale(6);
+  transform: scale(5);
 }
 
 .nav-link {
