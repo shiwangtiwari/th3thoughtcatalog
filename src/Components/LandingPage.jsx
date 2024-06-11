@@ -2,7 +2,7 @@ import React from "react";
 import { FaArrowUpLong } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import loop from "../assets/loop-med.mp4";
-import moon from "../assets/moon-large.mp4";
+import moon from "../assets/moon-small.mp4";
 
 function LandingPage() {
   return (
